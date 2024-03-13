@@ -1,5 +1,9 @@
 {
   "name": "ketcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postera-ai/ketcher.git"
+  },
   "private": true,
   "workspaces": [
     "packages/ketcher-core",
