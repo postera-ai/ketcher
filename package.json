@@ -1,5 +1,5 @@
 {
-  "name": "ketcher",
+  "name": "@postera-ai/ketcher",
   "private": true,
   "workspaces": [
     "packages/ketcher-core",

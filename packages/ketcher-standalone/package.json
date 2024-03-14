@@ -1,5 +1,5 @@
 {
-  "name": "ketcher-standalone",
+  "name": "@postera-ai/ketcher-standalone",
   "version": "2.19.0-rc.2",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
@@ -10,8 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epam/ketcher.git",
+    "url": "https://github.com/postera-ai/ketcher.git",
     "directory": "packages/ketcher-standalone"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/postera-ai"
   },
   "keywords": [
     "molecule",
