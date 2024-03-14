@@ -9,7 +9,7 @@ import strip from '@rollup/plugin-strip';
 import typescript from 'rollup-plugin-typescript2';
 import webWorkerLoader from 'rollup-plugin-web-worker-loader';
 import { license } from '../../license.ts';
-
+import json from '@rollup/plugin-json';
 const mode = {
   PRODUCTION: 'production',
   DEVELOPMENT: 'development',
@@ -35,7 +35,6 @@ const config = {
       banner: license,
     },
   ],
-  external: ['ketcher-core', /@babel\/runtime/],
   plugins: [
     del({
       targets: 'dist/*',
@@ -50,6 +49,7 @@ const config = {
       targetPlatform: 'browser',
       external: ['@babel/runtime'],
     }),
+    json(),
     typescript(),
     babel({
       extensions,

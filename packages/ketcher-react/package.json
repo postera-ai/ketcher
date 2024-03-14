@@ -1,6 +1,6 @@
 {
   "name": "@postera-ai/ketcher-react",
-  "version": "2.19.0-rc.2",
+  "version": "2.19.0-rc.5",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
   "homepage": "http://lifescience.opensource.epam.com/ketcher",
@@ -62,7 +62,7 @@
     "font-face-observer": "^1.0.0",
     "hoist-non-react-statics": "^3.3.2",
     "intersection-observer": "^0.12.0",
-    "ketcher-core": "*",
+    "@postera-ai/ketcher-core": "2.19.0-rc.2",
     "lodash": "^4.17.21",
     "miew-react": "^1.0.0",
     "react-colorful": "^5.4.0",
