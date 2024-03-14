@@ -1,5 +1,5 @@
 {
-  "name": "ketcher-core",
+  "name": "@postera-ai/ketcher-core",
   "version": "2.19.0-rc.2",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epam/ketcher.git",
+    "url": "https://github.com/postera-ai/ketcher.git",
     "directory": "packages/ketcher-core"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/postera-ai"
   },
   "keywords": [
     "molecule",
     "sketcher",
     "chemistry"
   ],
-  "bugs": {
-    "url": "https://github.com/epam/ketcher/issues"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.modern.js",
